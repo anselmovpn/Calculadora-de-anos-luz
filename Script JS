@@ -1,0 +1,8 @@
+var anosLuz = 9.461e15; //1 ano luz equivale a quantos metros
+var distanciaAPercorrerM = prompt(
+  "digite a distância em metros para saber quantos anos luz demora para chegar ao destino desejado"
+);
+
+var anosLuzResultado = distanciaAPercorrerM / anosLuz;
+anosLuzResultado = anosLuzResultado.toFixed(1);
+alert("Demoraria " + anosLuzResultado + " Anos luz para chegar ao destino");
